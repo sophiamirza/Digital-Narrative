@@ -1,0 +1,865 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.ocean-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#ocean1{
+    height: 150vh;
+    background-image: url(../images/ocean1.jpg);
+}
+#ocean2{
+    height: 200vh;
+    background-image: url(../images/Ocean2.jpg);
+}
+#ocean3{
+    height: 250vh;
+    background-image: url(../images/Ocean3.jpg);
+}
+#ocean4{
+    height: 350vh;
+    background-image: url(../images/Ocean4.jpg);
+}
+#ocean5{
+    height: 450vh;
+    background-image: url(../images/Ocean5.jpg);
+}
+/*section one*/
+
+#header-container{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 200px;
+background-color: lightsteelblue;
+}
+/*text and fonts*/
+
+/* section one text */
+h1{
+    font-family: 'sour gummy';
+    font-size: 70px;
+    color: midnightblue;
+}
+h4{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 400px;
+    margin-left: 850px;
+}
+h5{
+    font-family: 'sour gummy';
+    font-size: 20px;
+    color: midnightblue;
+}
+
+a{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 800px;
+    margin-left: 1000px;
+    font-weight: bold;
+}
+
+/* section two text */
+
+.like-a-whale{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 530px;
+    margin-left: 1200px;
+}
+.isnt-she-beautiful{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 580px;
+    margin-left: 1000px;
+}
+.someone-else-here{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1300px;
+    margin-left: 100px;
+}
+
+/* section three text */
+
+.happy-couple{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 150px;
+    margin-left: 1050px;
+}
+.click-for-kiss{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.perfect-pair{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 800px;
+    margin-left: 600px;
+}
+.a-clam-shell{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1200px;
+    margin-left: 1000px;
+}
+.maybe-theres-a-pearl{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1300px;
+    margin-left: 760px;
+}
+
+/* section four text */
+
+.this-ones-asleep{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.what-hes-dreaming{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 450px;
+    margin-left: 750px;
+}
+.thats-weird{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 770px;
+    margin-left: 400px;
+}
+.strange-dream{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 830px;
+    margin-left: 500px;
+}
+.what-do-i-know{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 950px;
+    margin-left: 300px;
+}
+.moving-on{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1100px;
+    margin-left: 800px;
+}
+.wait{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1400px;
+    margin-left: 150px;
+}
+.what-is-that{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1550px;
+    margin-left: 300px;
+}
+.not-supposed-to{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1750px;
+    margin-left: 100px;
+    
+}
+.a-cat{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 60px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 2250px;
+    margin-left: 700px;
+}
+
+/* section five text */
+.getting-weird{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.almost-at-end{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+.i-have-reward{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 500px;
+    margin-left: 800px;
+}
+.for-making-it{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 600px;
+    margin-left: 800px;
+}
+.congratulations{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 40px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 700px;
+    margin-left: 940px;
+}
+.what{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 80px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1200px;
+    margin-left: 600px;
+}
+.it-was-stolen{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 50px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1350px;
+    margin-left: 550px;
+}
+.by-who{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 50px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1450px;
+    margin-left: 550px;
+}
+.oh-no{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 50px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1800px;
+    margin-left: 200px;
+}
+.your-crown{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 50px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 1950px;
+    margin-left: 400px;
+}
+.better-luck-next-time{    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 50px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 2600px;
+    margin-left: 450px;
+}
+.end{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 200px;
+    color: midnightblue;
+    background-color: lightsteelblue;
+    margin-top: 2900px;
+    margin-left: 550px;
+}
+
+/* labels */
+.click-and-hold{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 15px;
+    margin-top: 590px;
+    margin-left: 150px;
+    color: midnightblue;
+    background-color: lightcoral;
+}
+.click-and-hold2{
+    position: absolute;
+    font-family: 'sour gummy';
+    font-size: 15px;
+    margin-top: 590px;
+    margin-left: 1050px;
+    color: midnightblue;
+    background-color: lightcoral;
+}
+.clam-hover{
+    font-family: 'sour gummy';
+    position: absolute;
+    font-size: 20px;
+    margin-top: 1200px;
+    margin-left: 650px;
+    color: midnightblue;
+    background-color: lightcoral;
+}
+.hover-turtle{
+    position: absolute;
+    color: midnightblue;
+    background-color: lightcoral;
+    font-size: 20px;
+    font-family: 'sour gummy';
+    margin-top: 300px;
+    margin-left: 990px;
+}
+.tv-hover{
+    position: absolute;
+    color: midnightblue;
+    background-color: lightcoral;
+    font-size: 20px;
+    font-family: 'sour gummy';
+    margin-top: 1600px;
+    margin-left: 900px;
+}
+.chest-hover{
+    position: absolute;
+    color: midnightblue;
+    background-color: lightcoral;
+    font-size: 20px;
+    font-family: 'sour gummy';
+    margin-top: 520px;
+    margin-left: 140px;
+}
+
+/* section one */
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: lightsteelblue;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+#fish1{
+    position: absolute;
+    margin-top: 350px;
+}
+#fish2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1210px;
+}
+
+/*section one bubbles*/
+
+#bubble1{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 200px;
+    opacity: 0;
+}
+#bubble2{
+    position: absolute;
+    margin-left: 570px;
+    opacity: 0;
+}
+#bubble3{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 200px;
+    opacity: 0;
+}
+#bubble100px1{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 150px;
+    opacity: 0;
+}
+#bubble100px2{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+    opacity: 0;
+}
+#bubble100px3{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 120px;
+    opacity: 0;
+}
+
+/*section two*/
+
+#whale{
+    position: absolute;
+    margin-top: 400px;
+    opacity: 0;
+}
+#seashell{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1200px;
+}
+#seashell100px{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1100px;
+}
+#yellow-star{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1350px;
+}
+#yellow-star2{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 50px;
+}
+#starfish{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+/*section two bubbles*/
+
+#bubble4{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 200px;
+    opacity: 0;
+}
+#bubble5{
+    position: absolute;
+    margin-left: 570px;
+    opacity: 0;
+}
+#bubble6{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 200px;
+    opacity: 0;
+}
+#bubble100px4{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 150px;
+    opacity: 0;
+}
+#bubble100px5{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+    opacity: 0;
+}
+#bubble100px6{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 120px;
+    opacity: 0;
+}
+
+/*section three*/
+
+#kiss-fish1{
+    position: absolute;
+    margin-top: 300px;
+    transform: translateX(0);
+    cursor:pointer
+}
+#kiss-fish1:active{
+    /* animation: slide-in-left 2s ease-in-out both; */
+    transform: translateX(728px);
+    transition: transform 2s;
+}
+#kiss-fish2{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 300px;
+    transform: translateX(0);
+    cursor: pointer;
+}
+#kiss-fish2:active{
+    transform: translateX(-728px);
+    transition: transform 2s;
+}
+#heart{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 150px;
+    opacity: 0;
+}
+#red-heart{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 250px;
+    opacity: 0;
+}
+#red-heart2{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 350px;
+    opacity: 0;
+}
+#red-heart3{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 420px;
+    opacity: 0;
+}
+#starfish-small{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 800px;
+}
+#clam-shell{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 50px;
+}
+/* #open-clam{
+    position: absolute;
+    margin-top: 1000px;
+    opacity: 0;
+}
+#open-clam:hover{
+    animation: animate both;
+} */
+
+/*section three bubbles*/
+
+#bubble7{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 200px;
+    opacity: 0;
+}
+#bubble8{
+    position: absolute;
+    margin-left: 570px;
+    opacity: 0;
+}
+#bubble9{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 200px;
+    opacity: 0;
+}
+#bubble100px7{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 150px;
+    opacity: 0;
+}
+#bubble100px8{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+    opacity: 0;
+}
+#bubble100px9{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 120px;
+    opacity: 0;
+}
+
+/*section four*/
+
+#turtle{
+    position: absolute;
+    margin-left: 150x;
+    margin-top: 100px;
+    opacity: 0;
+}
+#thought-bubble{
+    position: absolute;
+    margin-left: 610px;
+    opacity: 0;
+}
+#pink-star{
+    position: absolute;
+    margin-left: 1350px;
+    margin-top: 50px;
+}
+#yellow-star3{
+    position: absolute;
+    margin-left: 1200px;
+}
+#seashell2{
+    position: absolute;
+    margin-top: 1000px;
+}
+#seashell100px2{
+    position: absolute;
+    margin-top: 1250px;
+    margin-left: 220px;
+}
+#starfish-small2{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 1250px;
+}
+#cake{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 730px;
+    opacity: 0;
+    cursor: pointer;
+}
+#cake:hover{
+    animation: animate 2s ease-in-out both;
+}
+#tv{
+    position: absolute;
+    margin-top: 1400px;
+    margin-left: 800px;
+}
+#cat{
+    position: absolute;
+    margin-top: 1600px;
+    margin-left: 820px;
+    opacity: 0;
+    transform: translateY(0);
+    cursor: pointer;
+}
+#cat:hover{
+    animation: animate 2s ease-in-out both;
+    transform: translateY(-200px);
+}
+
+/*section five*/
+
+#treasure-chest{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 100px;
+}
+#cat-crown{
+    position: absolute;
+    margin-top: 1800px;
+    margin-left: 950px;
+    opacity: 0;
+}
+#seashell3{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 1150px;
+}
+
+/*animation class*/
+
+.appear{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 60%;
+}
+.appear-fast{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+.ease-in-left.scrolled{
+    animation: ease-in-left 3s ease-in-out both;
+}
+/*bubbles*/
+.ease-in-up.scrolled{
+    animation: ease-in-up 2s ease-in-out both;
+}
+/*turtle*/
+.fade-in.scrolled{
+    animation: fade-in .5s ease-in both;
+}
+/*thought bubble*/
+ .ease-in-down.scrolled{
+    animation: ease-in-down .7s ease-in-out both;
+} 
+/*heart*/
+.slide-in-up.scrolled{
+    animation: slide-in-up 2s ease-in-out both;
+}
+/* cat crown */
+.slide-in-right.scrolled{
+    animation: slide-in-right 1s ease-in both;
+}
+
+/*animation keyframes*/
+
+@keyframes appear{
+    from {
+        opacity: 0;
+        scale: 0.1;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes ease-in-left{
+    0%{
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(500px);
+        opacity: 0;
+    }
+}
+
+@keyframes ease-in-up{
+    0%{
+        transform: translateY(850px);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+ @keyframes ease-in-down{
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    30%{
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(50px);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-up{
+    0%{
+        transform: translateY(400px);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+}
+/*zzz animation*/
+@keyframes animate {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes slide-in-right{
+    0%{
+        transform: translateX(0px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(-200px);
+        opacity: 1;
+    }
+}
